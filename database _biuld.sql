@@ -1,18 +1,18 @@
-CREATE TABLE Seller ( 
-    SellerID INT,
-    SellerFirstName VARCHAR(255),
-    SellerLastName  VARCHAR(255),
-    AgentID  INT,
-    HouseID INT,
-    SellerPhoneNum INT,
+CREATE TABLE Sller  
+	SellerID int,
+	SellerFirstName varchar(255),
+	SellerLastName  varchar(255),
+	AgentID  int
+	HouseID int
+	SellerPhoneNum int
 );
-CREATE TABLE Buyer ( 
-    BuyerID INT,
-    BuyerFirstName VARCHAR(255),
-    BuyerLastName  VARCHAR(255),
-    AgentID  INT,
-    HouseID INT,
-    BuyerPhoneNum INT,
+CREATE TABLE Buyer (
+    BuyerID int,
+    BuyerFirstName varchar(255),
+    BuyerLastName varchar(255),
+    AgentID int,
+    HouseID int,
+    BuyerPhoneNum int,
 );
 
 CREATE TABLE RealtyAgent ( 
