@@ -2,9 +2,9 @@ CREATE TABLE Sller
 	SellerID int,
 	SellerFirstName varchar(255),
 	SellerLastName  varchar(255),
-	AgentID  int
-	HouseID int
-	SellerPhoneNum int
+	AgentID  int,
+	HouseID int,
+	SellerPhoneNum int,
 );
 CREATE TABLE Buyer (
     BuyerID int,
@@ -43,5 +43,8 @@ CREATE TABLE House (
     BuyerID INT,
     MLSNum INT,
     PropertyStatus VARCHAR(255),
+    HouseSold DATE,
+     AgentID INT,
+    
 );
 
